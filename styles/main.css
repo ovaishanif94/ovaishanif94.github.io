@@ -7274,7 +7274,7 @@ a.credit {
   padding-bottom: 0;
 }
 
-@media only screen and (max-width:767px){
+@media screen and (max-width:767px){
   #portfolio, #recommendations {
     text-align: center;
   }
