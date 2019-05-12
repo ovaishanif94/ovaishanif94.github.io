@@ -7274,12 +7274,41 @@ a.credit {
   padding-bottom: 0;
 }
 
+.cc-reference .carousel-item img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: solid 2px #ccc;
+}
+
+.cc-reference .carousel-item .category{
+  margin-bottom: 0px;
+}
+
+.cc-reference .carousel-item .social{
+  margin-bottom: 10px;
+}
+
+.cc-reference .carousel-item .social a.btn{
+  margin: 5px 0px;
+  padding: 0 5px;
+  font-size: 13px;
+}
+
+.cc-reference .carousel-item p.recommend{
+  font-style: italic;
+}
+
 @media screen and (max-width:767px){
-  #portfolio, #recommendations {
+  #portfolio {
     text-align: center;
   }
   
   #portfolio ul {
     text-align: left;
+  }
+
+  .cc-reference .carousel-item p.recommend{
+    font-size: 13px;
   }
 }
