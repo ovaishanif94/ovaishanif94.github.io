@@ -7312,3 +7312,10 @@ a.credit {
     font-size: 13px;
   }
 }
+.about-ul{
+  padding-left: 15px;
+  list-style: circle;
+}
+.cc-experience ul{
+  list-style: circle;
+}
